@@ -6,7 +6,6 @@
   "cordova": {
     "id": "cordova-plugin-firebase-messaging",
     "platforms": [
-      "ios",
       "android"
     ]
   },
@@ -29,8 +28,7 @@
     "gcm",
     "messaging",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "scripts": {
     "preversion": "npm run docs && rm -rf docs",
